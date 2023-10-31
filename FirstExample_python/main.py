@@ -13,6 +13,7 @@ def main(request):
     schema = {}
     schema['transactions'] = transactionsSchema
     response = {}
+    
     # Add updated state to response
     response['state'] =  state
     response['insert'] = insert
